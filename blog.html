@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev-Board-Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <style>
+        .body {
+            background-color: #f5f6ff;
+
+        }
+
+        .btn-style {
+            background-color: #3652fc;
+            color: white;
+            border-radius: 10px;
+        }
+
+        hr {
+            border: 1px gray dashed;
+            margin: 18px 0px 10px 0px;
+        }
+        
+        </style>
+</head>
+<body>
+    <div class="w-3/4 mx-auto">
+        <nav class="p-4 rounded-xl   mx-auto  flex justify-between bg-white shadow-lg">
+            <div class=" cursor-pointer logo flex">
+                <img src="./A5-Dev-Board-0.1.0/assets/logo.png" alt="logo">
+                <h1 class="text-4xl">Dev <span class="font-extrabold">Board</span></h1>
+            </div>
+            <!-- nav button section  -->
+             <div id="back" class="btn btn-style mt-2" >
+               <a href="index.html">
+                   back to main
+               </a>
+             </div>
+            
+        </nav>
+        <!-- Q&A section -->
+         <div class="q-A bg-white shadow-xl rounded-xl p-4  mt-10  ">
+            <div class="answer-box flex flex-col gap-4">
+            <!-- 1st question and its answer -->
+             <p class="font-semibold text-xl ">Question-1: What are the different ways to select an element in the DOM?</p>
+             <!--1st qeustion answer-->
+             <p>Answer: Selecting an element in the DOM**: You can select an element using `document.getElementById('id')`, `document.querySelector('selector')`, or `document.querySelectorAll('selector')`.</p>
+             </div>
+         </div>
+    </div>
+</body>
+</html>

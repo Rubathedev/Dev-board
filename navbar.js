@@ -2,12 +2,12 @@
 //color changing function
 document.getElementById("color-btn").addEventListener("click", function() {
     let bodyElement = document.body; 
-    let newColor = getRandomColor(); 
+    let newColor = randomColor(); 
     bodyElement.style.backgroundColor = newColor; 
   });
   
-  // Function to generate a random hexadecimal color
-  function getRandomColor() {
+  
+  function randomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
     for (let i = 0; i < 6; i++) {
@@ -15,3 +15,4 @@ document.getElementById("color-btn").addEventListener("click", function() {
     }
     return color;
   }
+  

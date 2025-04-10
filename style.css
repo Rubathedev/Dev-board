@@ -1,0 +1,26 @@
+
+        .body {
+            background-color: #f5f6ff;
+    
+        }
+    
+        .btn-style {
+            background-color: #3652fc;
+            color: white;
+            border-radius: 10px;
+        }
+    
+        hr {
+            border: 1px gray dashed;
+            margin: 18px 0px 10px 0px;
+        }
+        .log-entry{
+            
+            background-color: #f4f7ff;
+            border-radius: 10px;
+            margin: 0px auto;
+            max-width: 90%;
+            padding: 0px 10px;
+             max-height: fit-content;
+        }
+    

@@ -41,15 +41,44 @@
              </div>
             
         </nav>
-        <!-- Q&A section -->
-         <div class="q-A bg-white shadow-xl rounded-xl p-4  mt-10  ">
-            <div class="answer-box flex flex-col gap-4">
-            <!-- 1st question and its answer -->
-             <p class="font-semibold text-xl ">Question-1: What are the different ways to select an element in the DOM?</p>
-             <!--1st qeustion answer-->
-             <p>Answer: Selecting an element in the DOM**: You can select an element using `document.getElementById('id')`, `document.querySelector('selector')`, or `document.querySelectorAll('selector')`.</p>
-             </div>
-         </div>
+       <div class="div flex flex-col gap-5 mt-10 ">
+        <div tabindex="0" class="collapse bg-base-100 border-base-300 border p-4">
+            <div class="collapse-title text-2xl font-semibold">Question-1: What are the different ways to select an element in the DOM?
+            </div>
+            <div class="collapse-content text-lg">
+               there are lot of ways to do it <br> 1. getElementById('id') <br> 2.getElementsByClassName('class') <br> 3.querySelector('selector')  <br> 4.querySelectorAll('selector');
+                                              
+            </div>
+          </div>
+          <div tabindex="0" class="collapse bg-base-100 border-base-300 border p-4">
+            <div class="collapse-title text-2xl font-semibold">Question-2: What is the difference between innerHTML, innerText, and textContent ?
+            </div>
+            <div class="collapse-content text-lg">
+              innerHTML means all the Hmtl inside the div , Innertext means inside a html and textContent means with this gets all the text .
+            </div>
+          </div>
+          <div tabindex="0" class="collapse bg-base-100 border-base-300 border p-4">
+            <div class="collapse-title text-2xl font-semibold">Question-3: What is event delegation in the DOM?   </div>
+            <div class="collapse-content text-lg">
+              Attaching event to the parent element so that it can handle the events for the child element.
+            </div>
+          </div>
+          <div tabindex="0" class="collapse bg-base-100 border-base-300 border p-4">
+            <div class="collapse-title text-2xl font-semibold">Question-4: What is event bubbling in the DOM?
+
+            </div>
+            <div class="collapse-content text-lg">
+              bubbling in the dom is like how the bubble react it goes down to up that means i will first effect the child element then its parent then it's parent parent (grandparent); sorry
+            </div>
+          </div>
+          <div tabindex="0" class="collapse bg-base-100 border-base-300 border p-4">
+            <div class="collapse-title text-2xl font-semibold">Question-5: How do you create, add, and remove elements using JavaScript?</div>
+            <div class="collapse-content text-lg">
+                  for creating =  document.createElement("");  FOR ADD = document.appendchild(); ; for remove =  element.remove();
+            </div>
+          </div>
+          </div>
+         
     </div>
 </body>
 </html>
